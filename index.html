@@ -53,11 +53,13 @@
             gap: 10px;
         }
         
-        .logo h1 { 
+        .logo a { 
             font-family: 'Cormorant Garamond', serif; 
             color: var(--gold); 
             font-size: 1.8rem; 
+            color: var(--gold);
             margin: 0;
+            text-decoration: none;
         }
         
         .view-switch {
@@ -165,7 +167,7 @@
             .container { height: calc(100vh - 120px); }
         }
         
-        .search-box { position: fixed; top: 90px; left: 10px; z-index: 100; }
+        .search-box { position: fixed; top: 105px; left: 10px; z-index: 100; }
         .search-box input { padding: 6px 10px; border-radius: 15px; border: 1px solid var(--accent-blue); background: rgba(0,0,0,0.9); color: white; width: 180px; font-size: 0.85em; }
         .highlight { animation: pulse 1.5s infinite; }
         @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(241, 196, 15, 0.7); } 70% { box-shadow: 0 0 0 6px rgba(241, 196, 15, 0); } 100% { box-shadow: 0 0 0 0 rgba(241, 196, 15, 0); } }
@@ -179,12 +181,13 @@
     <header>
         <div class="logo">
             <span style="font-size: 2rem;">🌳</span>
-            <h1>УРУУ</h1>
+            <a target="_blank" href="./images/uru.jpg">УРУУ</a>
         </div>
 <div class="view-switch">
     <a href="index.html" class="view-btn active" target="_self">🏠 Главное</a>
     <a href="lists.html" class="view-btn" target="_self">📋 Списки</a>
     <a href="scheme.html" class="view-btn" target="_self">🌳 Схема</a>
+    <a href="exogamy.html" class="view-btn " target="_self">💑 Ekzogamiya</a>
 </div>
     </header>
 
