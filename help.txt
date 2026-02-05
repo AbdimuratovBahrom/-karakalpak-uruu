@@ -23,3 +23,6 @@ git pull origin main
 
 
 https://abdimuratovbahrom.github.io/qaraqalpaq-rulari/index.html
+
+
+rgba(241, 196, 15, 0.7)
